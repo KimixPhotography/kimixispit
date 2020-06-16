@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--meta-->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="keywords" content="Locations, City, Work " />
+  <meta name="description" content="Locations -  There you can see maps of the places where I work." />
+  <!-- material icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!--ikona-->
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <title>Kimix Photography - Locations</title>
+</head>
+
+<body class="black">
+  <!-- Navigation -->
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper black">
+        <a href="index.html" class="brand-logo"><img src="img/LOGO2.png" alt="logo2" title="Home Page" /></a>
+        <a href="#" data-target="openme" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hovnav hide-on-med-and-down">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="gallery.html">GALLERY</a></li>
+          <li><a href="camera.html">CAMERA</a></li>
+          <li><a class="active1" href="locations.html">LOCATIONS</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+          <li><a href="author.html">AUTHOR</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <ul class="sidenav hovnav center black" id="openme">
+    <li><a class="white-text" href="index.html">HOME</a></li>
+    <li><a class="white-text" href="gallery.html">GALLERY</a></li>
+    <li><a class="white-text" href="camera.html">CAMERA</a></li>
+    <li><a class="active1 white-text" href="locations.html">LOCATIONS</a></li>
+    <li><a class="white-text" href="contact.html">CONTACT</a></li>
+    <li><a class="white-text" href="author.html">AUTHOR</a></li>
+  </ul>
+
+  <!-- locations -->
+
+  <div class="parallax-container matvh-100">
+    <div class="parallax"><img src="img/locations.png" alt="map" /></div>
+  </div>
+  <div class="section yellow-text">
+    <div class="row container loc1">
+      <h2 class="header center">Locations</h2>
+      <p class="text-darken-3 center lighten-3">If you want to work with me, you can find me every two weeks in the next
+        cities bellow
+      </p>
+      <p class="text-darken-3 center lighten-3"><span>&#8681;</span></p>
+    </div>
+  </div>
+
+  <!-- cards -->
+  <div class="row locc ptt pbb">
+    <!-- gornji milanovac -->
+    <div class="col l4 m6 s12">
+      <div class="card hoverable">
+        <div class="card-image">
+          <img src="img/gm.jpg" alt="GornjiMilanovac"/>
+          <span class="card-title yellow-text">Gornji Milanovac</span>
+        </div>
+        <div class="card-content center">
+          <p>Gornji Milanovac is a town and municipality located in the Moravica District of central Serbia. This is
+            also the city where I was born. The population of the city is 44,406.</p>
+        </div>
+        <div class="card-action center">
+          <a href="https://goo.gl/maps/gUxqz1zzKjQh3VXG8">Visit Map</a>
+        </div>
+      </div>
+    </div>
+    <!-- cacak -->
+    <div class="col l4 m6 s12">
+      <div class="card hoverable">
+        <div class="card-image">
+          <img src="img/cacak.jpg" alt="Cacak"/>
+          <span class="card-title yellow-text">Čačak</span>
+        </div>
+        <div class="card-content center">
+          <p>Čačak is a city and the administrative center of the
+            Moravica District in central Serbia. It is located in the West Morava valley within the geographical
+            region of Šumadija.</p>
+        </div>
+        <div class="card-action center">
+          <a href="https://goo.gl/maps/Mx3DUMAEmyDY8RmQA">Visit Map</a>
+        </div>
+      </div>
+    </div>
+    <!-- beograd -->
+    <div class="col l4 m12 s12">
+      <div class="card hoverable">
+        <div class="card-image">
+          <img src="img/belgrade.jpg" alt="Beograd"/>
+          <span class="card-title yellow-text">Belgrade</span>
+        </div>
+        <div class="card-content center">
+          <p>Belgrade is the city located in Serbia, on the confluence of the rivers Sava and Danube, the place where
+            Balkan
+            Peninsula meets the Central European Panonian plain. </p>
+        </div>
+        <div class="card-action center">
+          <a href="https://goo.gl/maps/JLmLk2arBBwnst6Z9">Visit Map</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- hire me -->
+
+    <div class="container hiremat pbb center">
+      <h2 class="header yellow-text">Hire Me</h2>
+      <p class="white-text lighten-3">If you are living near this cities and if you want to make a quick deal, feel
+        free to contact me!
+      </p>
+      <a href="contact.html" class="waves-effect blue black-text waves-light btn-large">Contact</a>
+    </div>
+
+  <!-- JS -->
+  <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>    
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script type="text/javascript">
+   $(document).ready(function(){
+	// PARALLAX
+	$('.parallax').parallax();
+});
+  </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      M.AutoInit();
+    });
+  </script>
+</body>
+
+</html>
